@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.header-left{
+    text-align: center;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+.header-left-img{
+    margin-bottom: 20px;
+}
+.site-left{
+    width: 30%;
+    background-color:#006599 ;
+    color: white;
+    display: inline-block;
+    position: fixed;
+    height: 100%;
+    margin-right: 35%;
+}
+.menu-item{
+    text-decoration: none;
+    color: white;
+    margin-left: 170px;
+    font-size: 30px;
+    transition: 0.5s;
+    display: block;
+    margin-top: 50px;
+}
+.menu-item:hover{
+    color: blue;
+}
+.container{
+    margin-left: 5%;
+}
+
+.site-right{
+    display: inline-block;
+    width: 57%;
+    margin-left: 35%;
+}
+.qwerty{
+background: url(img/neaty-01.jpg) center/cover no-repeat;
+height: 100vh;
+width: 100%;
+background-attachment: fixed;
+}
+.header-text{
+    color:#078dcf;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.section-text{
+    display: block;
+    width: 100%;
+    color: #078dcf;
+    word-spacing: 1px;
+    font-size: 24px;
+}
+.header-sub-text{
+    margin-bottom: 100px;
+}
+.fst-block-left{
+    display: inline-block;
+}
+.fst-block-right{
+    display: inline-block;
+    width: 50%;
+    margin-left: 20px;
+    vertical-align: top;
+
+}
+.button{
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.button:hover{
+    color: aqua;
+    background-color: black;
+    font-size: 30px;
+}
+.fst-section-text{
+    margin-bottom: 30px;
+}
+.gallery{
+    text-align: center;
+}
+.gallery-img{
+    display: inline-block;
+    width: 15%;
+}
+.gallery-img-nd{
+    width: 30%;
+    margin: 0 10px;
+}
+.gallery-img-th{
+    width: 20%;
+    margin: 0 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+  background-color: #a5cff4;  
+}
+.container-nd{
+    width: 50%;
+    margin: 200px auto;
+    background-color: white;
+    box-shadow: 0 0 20px grey;
+    border-radius: 5px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+
+form{
+    padding: 50px;
+}
+.form-input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+     color: black;
+     border: none;
+     border-bottom: 1px solid black;
+     margin-bottom: 10px;
+     font-size: 18px;
+     outline: none;
+}
+.form-label{
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+fieldset{
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: grey;
+}
+legend{
+    text-align: center;
+}
+select{
+    width: 50%;
+    padding: 10px;
+    display: block;
+    margin: 10px 0;
+}
+textarea{
+    width: 100%;
+    padding: 10PX;
+    color:black ;
+    font-size: 18px;
+    outline: none;
+    resize: none;
+}
+button{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 10px 0;
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+button:active{
+    border: 1px solid red;
+}
+.card-header{
+    text-align: left;
+}
